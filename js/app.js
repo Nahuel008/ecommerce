@@ -79,12 +79,7 @@ window.onload= function(){
     // MENU 
 
     // ANIMATIONS 
-    let heroText = document.querySelector('.hero .row .left-section .text h2');
-    let heroButton = document.querySelector('.hero .row .left-section .text a');
-    const imgHero = document.querySelector('.hero .row .right-section .img img');
-    heroText.classList.add('fadeSlideRight');
-    heroButton.classList.add('fadeSlideLeft');
-    imgHero.classList.add('fadeSlideRight');
+   
     window.onscroll = function() {
         // NAV 
         var scrollTop =  window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
@@ -104,5 +99,6 @@ window.onload= function(){
    fadeSlideRight('.contact .col .text h2');
         // HERO 
     }
-    // ANIMATIONS 
+    // ANIMATIONS  
+
 }

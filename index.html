@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -18,6 +18,7 @@
         <div class="menu"><i class="material-icons">menu</i></div>
         <div class="logo">SENTIMIENTOS BORDADOS</div>
         <div class="cart"><i class="material-icons">shopping_cart</i></div>
+         
         <ul class="ul">
             <div class="close"><i class="material-icons">close</i></div>
             <li><a href="">INICIO</a></li>
@@ -30,8 +31,7 @@
                 <i class="si-instagram"></i>
                 <i class="si-whatsapp"></i>
             </div>
-        </ul>
-       
+        </ul>    
     </nav>
     <!-- HERO  -->
     <div class="hero">
@@ -57,15 +57,15 @@
     <!-- LIST PRODUCTS  -->
     <div class="products row">
         <div class="card-prod col">
-            <a href="">
+            <a href="remeraNegra.html">
                 <div class="price">$500</div>
                 <div class="img"><img src="img/negro.png" alt=""></div>
-                <div class="name"><h3>REMERA BLANCA LISA</h3></div>
+                <div class="name"><h3>REMERA NEGRA LISA</h3></div>
             </a>
         </div>
 
         <div class="card-prod col">
-            <a href="">
+            <a href="remeraBlanca.html">
                 <div class="price">$500</div>
                 <div class="img"><img src="img/blanco.png" alt=""></div>
                 <div class="name"><h3>REMERA BLANCA LISA</h3></div>
@@ -160,6 +160,14 @@
         </div>
     </footer>
     <script src="js/app.js"></script>
+    <script>
+        let heroText = document.querySelector('.hero .row .left-section .text h2');
+    let heroButton = document.querySelector('.hero .row .left-section .text a');
+    const imgHero = document.querySelector('.hero .row .right-section .img img');
+    heroText.classList.add('fadeSlideRight');
+    heroButton.classList.add('fadeSlideLeft');
+    imgHero.classList.add('fadeSlideRight');
     
+    </script>
 </body>
 </html>

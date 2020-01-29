@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;  
-    font-family: 'Oxygen', serif;
 }
 body{
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Oxygen', serif;
 }
 .row{
     display: flex;
@@ -31,7 +31,8 @@ nav{
 }
 nav.bg{
     background: rgba(255,255,255,.9);
-    border: none;
+    /* border: none; */
+    box-shadow: 0px 0px 5px #dddddd;
 }
 nav .menu,nav ul .close{
     width: 20px;
@@ -48,7 +49,7 @@ nav ul .close{
     right: 10%;
 }
 nav .logo{
-    font-weight: 900;
+    font-weight: 100;
     font-size: 13pt;
 }
 nav .cart{
@@ -153,6 +154,7 @@ nav ul li a:hover{
     width: 80%;
     margin: auto;
     color:#2B2B2B;
+    font-weight: 100;
 }
 .hero .row .right-section{
     display: none;
@@ -218,7 +220,6 @@ nav ul li a:hover{
 
     .info{
         width: 100%;
-        border: 1px solid #dddddd;
         box-sizing: border-box;
         position: relative;
     }
@@ -346,13 +347,13 @@ nav ul li a:hover{
     .contact .col .social-contact{
         width: 88%;
         font-size: 17pt;
+        margin-bottom: 30px;
     }
     .contact .col .social-contact i{
         margin: 0px 10px;
     }
     .contact .form.col{
         width: 90%;
-        /* background: #F0FAFA; */
         margin: auto;
     }
     form input[type="text"]{
@@ -390,12 +391,16 @@ nav ul li a:hover{
         align-items: center;
     }
     footer .row{
-        width: 88%;
-        justify-content: space-between;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
         margin: auto;
     }
     footer ul{
         list-style: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
     }
     footer ul li{
         display: inline-block;
@@ -426,4 +431,63 @@ nav ul li a:hover{
     .fadeSlideDown{
         opacity: 1 !important;
         transform: translateY(0px) !important;
+    }
+
+
+
+    /* SINGLE PRODUCT  */
+    .singleprod{
+        width: 88%;
+        margin: 85px auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .singleprod .img{
+        width: 300px;
+    }
+    .singleprod .img img{
+        width: 100%;
+    }
+    .singleprod .col{
+        justify-content: space-around;
+    }
+    .singleprod .col h2{
+        font-weight: 100;
+        font-style: italic;
+    }
+    .singleprod .col .description{
+        font-weight: 100;
+        color: #2B2B2B;
+        font-style: italic;
+    }
+    .singleprod .col .price{
+        font-size: 15pt;
+        font-weight: 700;
+        font-style: italic;
+        color:#676767;
+    }
+    .singleprod .col a.btn{
+        display: block;
+        text-decoration: none;
+        color: #FFFFFF;
+        background: #000000;
+        padding:10px 15px;
+    }
+    .singleprod .col input[type="number"]{
+        width: 50px;
+        text-align: center;
+        margin: 0px 5px;
+        border: 1px solid #444;
+    }
+    .singleprod .col select{
+        background: #FFFFFF;
+        border: 1px solid #444;
+    }
+    .note{
+        width: 88%;
+        text-align: left;
+        margin: auto;
+        display: block;
+        color: #837E7E;
+        font-size: 10pt;
     }

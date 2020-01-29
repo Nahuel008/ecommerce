@@ -30,7 +30,9 @@
     /* LIST PROD  */
 
     /* INFO  */
-
+    .info{
+        border: 1px solid #dddddd;
+    }
     .info .row{
         flex-direction: row;
     }
@@ -67,4 +69,16 @@
     background: #F0FAFA;
 }
    /* CONTACT */
+
+   footer .row{
+    width: 88%;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+footer ul{
+    list-style: none;
+    width: auto;
+    text-align: left;
+}
 }
