@@ -1,0 +1,70 @@
+@media screen and (min-width:600px){
+    nav ul{
+        width: 30%;
+        left: -35%;
+    }
+
+    /* HERO  */
+
+    .hero .row .col.left-section{
+        width: 65%;
+     }
+    .hero .row .right-section{
+        display: flex;
+    }
+
+    /* HERO  */
+
+    /* LIST PROD  */
+
+    .products{
+        width: 88%;
+    }
+    .card-prod{
+        width: 250px;
+        height: 350px;
+    }
+    .card-prod a .img img{
+        height: 250px;
+    }
+    /* LIST PROD  */
+
+    /* INFO  */
+
+    .info .row{
+        flex-direction: row;
+    }
+    .info .row .img{
+        height: 400px;
+        filter: none;
+        overflow: hidden;
+    }
+    .info .row .col{ 
+        position: relative;
+        background: none;
+        height: auto;
+    }
+    /* INFO  */
+
+
+    /* PORTFOLIO  */
+    .portfolio .row{
+        flex-wrap: nowrap;
+    }
+   /* PORTFOLIO  */
+
+   /* CONTACT */
+   .contact .col{
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.contact .col .text{
+    width: 80%;
+}
+   .contact .form.col{
+    width: 50%;
+    background: #F0FAFA;
+}
+   /* CONTACT */
+}
