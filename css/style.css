@@ -80,6 +80,10 @@ nav ul .social{
 bottom: 10%;
 width: 60%;
 }
+nav ul .social a{
+    text-decoration: none;
+    color: #000000;
+}
 nav ul .social i{
     margin-right: 25px;
 }
@@ -349,6 +353,10 @@ nav ul li a:hover{
         font-size: 17pt;
         margin-bottom: 30px;
     }
+    .contact .col .social-contact a{
+        text-decoration: none;
+        color:#000000;
+    }
     .contact .col .social-contact i{
         margin: 0px 10px;
     }
@@ -409,6 +417,10 @@ nav ul li a:hover{
     footer ul li a{
         text-decoration: none;
         color: #FFFFFF;
+    }
+    footer .social-footer a{
+        text-decoration: none;
+        color:#FFFFFF;
     }
     footer .social-footer i{
         margin: 0px 5px;
@@ -490,4 +502,11 @@ nav ul li a:hover{
         display: block;
         color: #837E7E;
         font-size: 10pt;
+    }
+    .portfolio-hero{
+        height: 60vh;
+        text-align: center;
+        line-height: 60vh;
+        background: #F0FAFA;
+        font-weight: 100;
     }
